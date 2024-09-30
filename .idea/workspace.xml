@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="06b285c7-d9b7-477b-a7eb-c02e8501c2ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/test_parser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/benoder/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/benoder/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/benoder/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/benoder/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/benoder/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/benoder/parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1727698118" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1727698117" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -38,10 +63,10 @@
     "Python tests.Python tests for test_parser.TestBencodeParser.test_parse_integer.executor": "Run",
     "Python tests.Python tests for test_parser.TestBencodeParser.test_parse_list.executor": "Debug",
     "Python tests.Python tests for test_parser.TestBencodeParser.test_parse_string.executor": "Run",
-    "Python.main.executor": "Debug",
+    "Python.main.executor": "Run",
     "Python.parser.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/Lenovo/Desktop/bittorrent/virtual_envs",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -52,7 +77,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python tests.Python tests for test_parser.TestBencodeParser.test_parse_string">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="bencoding-parser" />
       <option name="ENV_FILES" value="" />
@@ -142,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main" />
         <item itemvalue="Python tests.Python tests for test_parser.TestBencodeParser.test_parse_string" />
         <item itemvalue="Python tests.Python tests for test_parser.TestBencodeParser.test_parse_dict" />
         <item itemvalue="Python tests.Python tests for test_parser.TestBencodeParser.test_parse_integer" />
         <item itemvalue="Python tests.Python tests for test_parser.TestBencodeParser.test_parse_list" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1727678026359</updated>
       <workItem from="1727678027539" duration="6229000" />
-      <workItem from="1727693539679" duration="4024000" />
+      <workItem from="1727693539679" duration="5693000" />
     </task>
     <servers />
   </component>
@@ -184,25 +209,20 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/benoder/parser.py</url>
-          <line>10</line>
-          <option name="timeStamp" value="17" />
+          <line>14</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_parser.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/test_parser.py</url>
-          <line>12</line>
-          <option name="timeStamp" value="19" />
+          <url>file://$PROJECT_DIR$/benoder/parser.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/bencoding_parser$main.coverage" NAME="main Coverage Results" MODIFIED="1727697233690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benoder" />
+    <SUITE FILE_PATH="coverage/bencoding_parser$main.coverage" NAME="main Coverage Results" MODIFIED="1727699499897" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benoder" />
     <SUITE FILE_PATH="coverage/bencoding_parser$parser.coverage" NAME="parser Coverage Results" MODIFIED="1727696909715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/benoder" />
-    <SUITE FILE_PATH="coverage/bencoding_parser$.coverage" NAME=" Coverage Results" MODIFIED="1727697856247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/bencoding_parser$.coverage" NAME=" Coverage Results" MODIFIED="1727697996415" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

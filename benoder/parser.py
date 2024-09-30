@@ -1,9 +1,30 @@
 import re
 import string
+import itertools as it
 
 from benoder.exceptions import BencodeDecodeError
 
 class BencoderParser():
+
+    def encoder(self, data):
+        if isinstance(data, int):
+            return b"i" + str(data).encode() + b"e"
+        elif isinstance(data, bytes):
+            return str(len(data)).encode() + b":" + data
+        elif isinstance(data, str):
+            return self.encoder(data.encode("ascii"))
+        elif isinstance(data, list):
+            return b"l" + b"".join(map(self.encoder, data)) + b"e"
+        elif isinstance(data, dict):
+            items = [(k.encode('utf-8') if isinstance(k, str) else k, v) for k, v in data.items()]
+            items.sort()  # Sort items by keys
+
+            encoded_dict = b"d" + b"".join(
+                self.encoder(k) + self.encoder(v) for k, v in items
+            ) + b"e"
+
+            return encoded_dict
+
 
     def decoder(self, data):
         if data.startswith(b"i"):
